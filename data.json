@@ -1,0 +1,90 @@
+{
+  "Tours": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000001",
+      "Title": "Пляжный чилл в Турции",
+      "Price": 45000,
+      "DurationDays": 7,
+      "CountryInfo": {
+        "Name": "Турция",
+        "Valuta": "TRY"
+      },
+      "GuideInfo": {
+        "FullName": "Серкан Болат",
+        "Rating": 5.0
+      }
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000002",
+      "Title": "Горнолыжный курорт Кицбюэль",
+      "Price": 120000,
+      "DurationDays": 10,
+      "CountryInfo": {
+        "Name": "Австрия",
+        "Valuta": "EUR"
+      },
+      "GuideInfo": {
+        "FullName": "Мориц Арне",
+        "Rating": 4.9
+      }
+    }
+  ],
+  "Tourists": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000003",
+      "FullName": "Николай Герасимов",
+      "Age": 18,
+      "PassportData": {
+        "Series": "4500",
+        "Number": "123456"
+      },
+      "TourPreferences": {
+        "Food": "Standard",
+        "Transport": "Train"
+      }
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000004",
+      "FullName": "Анна Бусова",
+      "Age": 19,
+      "PassportData": {
+        "Series": "4500",
+        "Number": "654321"
+      },
+      "TourPreferences": {
+        "Food": "GlutenFree",
+        "Transport": "Plane"
+      }
+    }
+  ],
+  "Hotels": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000005",
+      "Name": "Mardan Palace",
+      "Stars": 5,
+      "PriceForNight": 8000,
+      "AddressInfo": {
+        "City": "Анталья",
+        "Street": "Yasar Sobutay Boulevard, 102"
+      },
+      "ContactInfo": {
+        "Email": "info@MardanPalace.com",
+        "Phone": "+90 242 310 41 00"
+      }
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000006",
+      "Name": "Alpine Lodge",
+      "Stars": 4,
+      "PriceForNight": 12000,
+      "AddressInfo": {
+        "City": "Кицбюэль",
+        "Street": "Bichlstraße, 5099"
+      },
+      "ContactInfo": {
+        "Email": "booking@alpinelodge.at",
+        "Phone": "+43 662 987 65 43"
+      }
+    }
+  ]
+}

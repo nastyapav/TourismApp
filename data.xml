@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Tours>
+		<Tour>
+			<Id>00000000-0000-0000-0000-000000000001</Id>
+			<Title>Пляжный чилл в Турции</Title>
+			<Price>45000</Price>
+			<DurationDays>7</DurationDays>
+			<CountryInfo>
+				<Name>Турция</Name>
+				<Valuta>TRY</Valuta>
+			</CountryInfo>
+			<GuideInfo>
+				<FullName>Серкан Болат</FullName>
+				<Rating>5.0</Rating>
+			</GuideInfo>
+		</Tour>
+		<Tour>
+			<Id>00000000-0000-0000-0000-000000000002</Id>
+			<Title>Горнолыжный курорт Кицбюэль</Title>
+			<Price>120000</Price>
+			<DurationDays>10</DurationDays>
+			<CountryInfo>
+				<Name>Австрия</Name>
+				<Valuta>EUR</Valuta>
+			</CountryInfo>
+			<GuideInfo>
+				<FullName>Мориц Арне</FullName>
+				<Rating>4.9</Rating>
+			</GuideInfo>
+		</Tour>
+	</Tours>
+	<Tourists>
+		<Tourist>
+			<Id>00000000-0000-0000-0000-000000000003</Id>
+			<FullName>Николай Герасимов</FullName>
+			<Age>18</Age>
+			<PassportData>
+				<Series>4500</Series>
+				<Number>123456</Number>
+			</PassportData>
+			<TourPreferences>
+				<Food>Standard</Food>
+				<Transport>Train</Transport>
+			</TourPreferences>
+		</Tourist>
+		<Tourist>
+			<Id>00000000-0000-0000-0000-000000000004</Id>
+			<FullName>Анна Бусова</FullName>
+			<Age>19</Age>
+			<PassportData>
+				<Series>4500</Series>
+				<Number>654321</Number>
+			</PassportData>
+			<TourPreferences>
+				<Food>GlutenFree</Food>
+				<Transport>Plane</Transport>
+			</TourPreferences>
+		</Tourist>
+	</Tourists>
+	<Hotels>
+		<Hotel>
+			<Id>00000000-0000-0000-0000-000000000005</Id>
+			<Name>Mardan Palace</Name>
+			<Stars>5</Stars>
+			<PriceForNight>8000</PriceForNight>
+			<AddressInfo>
+				<City>Анталья</City>
+				<Street>Yasar Sobutay Boulevard, 102</Street>
+			</AddressInfo>
+			<ContactInfo>
+				<Email>info@MardanPalace.com</Email>
+				<Phone>+90 242 310 41 00</Phone>
+			</ContactInfo>
+		</Hotel>
+		<Hotel>
+			<Id>00000000-0000-0000-0000-000000000006</Id>
+			<Name>Alpine Lodge</Name>
+			<Stars>4</Stars>
+			<PriceForNight>12000</PriceForNight>
+			<AddressInfo>
+				<City>Кицбюэль</City>
+				<Street>Bichlstraße, 5099</Street>
+			</AddressInfo>
+			<ContactInfo>
+				<Email>booking@alpinelodge.at</Email>
+				<Phone>+43 662 987 65 43</Phone>
+			</ContactInfo>
+		</Hotel>
+	</Hotels>
+</Root>
