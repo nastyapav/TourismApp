@@ -56,7 +56,7 @@
             this.treeViewEntities.Name = "treeViewEntities";
             this.treeViewEntities.Size = new System.Drawing.Size(160, 337);
             this.treeViewEntities.TabIndex = 1;
-            this.treeViewEntities.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewEntities_AfterSelect);
+      
             // 
             // splitter1
             // 
