@@ -32,7 +32,7 @@ namespace TourismApp
         {
             try
             {
-                var jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data.json");
+                var jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Files", "data.json");
                 if (!File.Exists(jsonPath))
                 {
                     MessageBox.Show(Resources.MsgJsonFileNotFound, Resources.MsgError,
@@ -64,7 +64,7 @@ namespace TourismApp
         {
             try
             {
-                var xmlPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data.xml");
+                var xmlPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Files", "data.xml");
                 if (!File.Exists(xmlPath))
                 {
                     MessageBox.Show(Resources.MsgXmlFileNotFound, Resources.MsgError,
